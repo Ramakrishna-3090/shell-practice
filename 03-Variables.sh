@@ -1,2 +1,8 @@
 #!/bin/bash
-echo "This is variable contain storage"
+PERSON1=Suresh
+PERSON2=Ramesh
+
+echo "$PERSON1:: Hello $PERSON2, How are you?"
+echo "$PERSON2:: Hi $PERSON1, I am fine thanks for asking how are doing"
+echo "$PERSON1:: doing fine what are you learning $PERSON2?"
+echo "$PERSON2:: I am learning shell what about you?"
