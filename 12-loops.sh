@@ -13,8 +13,8 @@ VALIDATE(){
         exit 1
     else
         echo "$2... SUCESS" | tee -a $LOGS_FILE
+    fi
 }
-fi
 for package in $@ #sudo sh 11-loops.sh nginx mysql nodejs
 do 
    dnf list installed $package  &>>$LOGS_FILE
